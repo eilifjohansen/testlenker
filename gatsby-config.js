@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "NAV Lenker",
+    title: "Testlenker",
   },
   plugins: [
     "gatsby-plugin-image",
