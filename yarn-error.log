@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\eilif\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add nav-frontend-lenkepanel classnames nav-frontend-lenkepanel-style nav-frontend-chevron-style nav-frontend-core nav-frontend-paneler-style nav-frontend-typografi nav-frontend-typografi-style prop-types react
+
+PATH: 
+  C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files (x86)\Python36-32\Scripts\;C:\Program Files (x86)\Python36-32\;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\laragon\bin\php\php-7.1.20-Win32-VC14-x64;C:\ProgramData\ComposerSetup\bin;C:\Users\eilif\AppData\Local\Microsoft\WindowsApps;C:\Users\eilif\AppData\Roaming\Composer\vendor\bin;C:\Users\eilif\AppData\Roaming\npm;C:\adb;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\helm\windows-amd64;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\OpenNI\Bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\eilif\AppData\Local\Microsoft\WindowsApps;C:\Users\eilif\AppData\Roaming\Composer\vendor\bin;C:\Users\eilif\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Users\eilif\AppData\Roaming\npm;C:\Program Files\IBM\Cloud\bin;C:\Users\eilif\AppData\Local\.meteor;C:\Users\eilif\AppData\Local\Programs\Python\Python36-32;;C:\Users\eilif\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\eilif\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.16.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\www\gatsby\nav-caseoppgave\node_modules\sharp\build\Release\libvips-42.dll'
+
+npm manifest: 
+  {
+    "name": "nav-caseoppgave",
+    "version": "1.0.0",
+    "private": true,
+    "description": "NAV Caseoppgave",
+    "author": "Eilif Johansen",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "@mdx-js/mdx": "^1.6.22",
+      "@mdx-js/react": "^1.6.22",
+      "gatsby": "^3.4.1",
+      "gatsby-plugin-image": "^1.5.0",
+      "gatsby-plugin-manifest": "^3.5.0",
+      "gatsby-plugin-mdx": "^2.5.1",
+      "gatsby-plugin-react-helmet": "^4.5.0",
+      "gatsby-plugin-sharp": "^3.5.0",
+      "gatsby-plugin-sitemap": "^4.1.0",
+      "gatsby-source-filesystem": "^3.5.0",
+      "gatsby-transformer-sharp": "^3.5.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-helmet": "^6.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

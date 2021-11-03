@@ -1,0 +1,31 @@
+---
+title: Tilgjengelighet i NAV
+ingress: Å leve med nedsatt funksjonsevne fører ofte med seg utfordringer i dagliglivet, deriblant bruk av teknologi. Defor skal alle digitale løsninger vi bygger i NAV være universelt utformet slik at de aller fleste kan klare seg selv.
+rank: 0
+---
+
+import { Ingress, Undertittel } from "nav-frontend-typografi";
+import { LenkepanelBase } from "nav-frontend-lenkepanel";
+import Alertstripe from "nav-frontend-alertstriper";
+import Lenkepanel from "nav-frontend-lenkepanel";
+import Lenke from "nav-frontend-lenker";
+import Panel from "nav-frontend-paneler";
+import { Link } from "gatsby";
+
+# Du er på /lorem/FNR
+
+FNR = 12123312345
+
+## Hvor vil du gå videre?
+
+<LenkepanelBase href="https://www.nav.no/no/person" border>
+  <div>
+    <Undertittel className="lenkepanel__heading">nav.no</Undertittel>
+  </div>
+</LenkepanelBase>
+
+<LenkepanelBase href="https://www-q6.nav.no/no/personn" border>
+  <div>
+    <Undertittel className="lenkepanel__heading">www-q6.nav.no</Undertittel>
+  </div>
+</LenkepanelBase>

@@ -1,0 +1,107 @@
+---
+title: Tilgjengelighet i NAV
+ingress: Å leve med nedsatt funksjonsevne fører ofte med seg utfordringer i dagliglivet, deriblant bruk av teknologi. Defor skal alle digitale løsninger vi bygger i NAV være universelt utformet slik at de aller fleste kan klare seg selv.
+rank: 0
+---
+
+import { Ingress, Undertittel } from "nav-frontend-typografi";
+import { LenkepanelBase } from "nav-frontend-lenkepanel";
+import Alertstripe from "nav-frontend-alertstriper";
+import Lenkepanel from "nav-frontend-lenkepanel";
+import Lenke from "nav-frontend-lenker";
+import Panel from "nav-frontend-paneler";
+import { Link } from "gatsby";
+
+# Lenkevarianter uten rel="noreferrer"
+
+<LenkepanelBase
+  className="resource-link"
+  linkCreator={(props) => (
+    <Link className="lenkepanel lenkepanel--border" to={props.href}>
+      {props.children}
+    </Link>
+  )}
+  href="/12123312345"
+  border
+>
+  <div>
+    <Undertittel className="lenkepanel__heading">/FNR</Undertittel>
+  </div>
+</LenkepanelBase>
+
+<LenkepanelBase
+  className="resource-link"
+  linkCreator={(props) => (
+    <Link className="lenkepanel lenkepanel--border" to={props.href}>
+      {props.children}
+    </Link>
+  )}
+  href="/lorem/12123312345"
+  border
+>
+  <div>
+    <Undertittel className="lenkepanel__heading">/lorem/FNR</Undertittel>
+  </div>
+</LenkepanelBase>
+
+<LenkepanelBase
+  className="resource-link"
+  linkCreator={(props) => (
+    <Link className="lenkepanel lenkepanel--border" to={props.href}>
+      {props.children}
+    </Link>
+  )}
+  href="/lorem/12123312345/lorem"
+  border
+>
+  <div>
+    <Undertittel className="lenkepanel__heading">/lorem/FNR/lorem</Undertittel>
+  </div>
+</LenkepanelBase>
+
+# Lenkevarianter med rel="noreferrer"
+
+<LenkepanelBase
+  className="resource-link"
+  linkCreator={(props) => (
+    <Link className="lenkepanel lenkepanel--border" to={props.href}>
+      {props.children}
+    </Link>
+  )}
+  href="/12123312345"
+  border
+>
+  <div>
+    <Undertittel className="lenkepanel__heading">/FNR</Undertittel>
+  </div>
+</LenkepanelBase>
+
+<LenkepanelBase
+  className="resource-link"
+  linkCreator={(props) => (
+    <Link className="lenkepanel lenkepanel--border" to={props.href}>
+      {props.children}
+    </Link>
+  )}
+  href="/lorem/12123312345"
+  border
+>
+  <div>
+    <Undertittel className="lenkepanel__heading">/lorem/FNR</Undertittel>
+  </div>
+</LenkepanelBase>
+
+<LenkepanelBase
+  className="resource-link"
+  linkCreator={(props) => (
+    <Link className="lenkepanel lenkepanel--border" to={props.href}>
+      {props.children}
+    </Link>
+  )}
+  href="/lorem/12123312345/lorem"
+  border
+>
+  <div>
+    <Undertittel className="lenkepanel__heading">/lorem/FNR/lorem</Undertittel>
+  </div>
+</LenkepanelBase>
